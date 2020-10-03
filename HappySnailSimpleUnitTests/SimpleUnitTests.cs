@@ -16,7 +16,7 @@ namespace HappySnailSimpleUnitTests
             Assert.AreEqual(SimpleMath.AddNums(-1, -1), -2);
 
             //Doubles
-            Assert.AreEqual(SimpleMath.AddNums(.5, .2), .7);
+            Assert.AreEqual(SimpleMath.AddNums(.5, .2), .7, .0001);
         }
         [TestMethod]
         public void TestDivideNums()
